@@ -127,6 +127,7 @@ The application was developed in **R** using:
 * [DT](https://cran.r-project.org/package=DT)
 * [readxl](https://cran.r-project.org/package=readxl)
 * [shinyWidgets](https://cran.r-project.org/package=shinyWidgets)
+* [ReplicateBE](https://github.com/Helmut01/replicateBE)
 
 ## Project Structure
 
