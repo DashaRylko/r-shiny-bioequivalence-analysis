@@ -1,18 +1,10 @@
 # R Shiny Application for Bioequivalence Analysis
 
-### Pharmacokinetic & Statistical Analysis of Crossover and Replicate Studies
-
-![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
-![Shiny](https://img.shields.io/badge/R_Shiny-1.11.1-447099)
-![Pharmacokinetics](https://img.shields.io/badge/Pharmacokinetics-NCA-green)
-![Bioequivalence](https://img.shields.io/badge/Bioequivalence-BE-orange)
-![Biostatistics](https://img.shields.io/badge/Biostatistics-Statistical_Analysis-purple)
-
----
-
 ## Overview
 
 An interactive **R Shiny application for pharmacokinetic and statistical analysis of bioequivalence (BE) studies**.
+
+![Interface look](screenshots/upload_1.png)
 
 The application was developed to support the analysis of pharmacokinetic (PK) data from crossover and replicate-design bioequivalence studies.
 
