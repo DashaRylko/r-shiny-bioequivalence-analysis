@@ -2,7 +2,7 @@
 
 An interactive **R Shiny application for pharmacokinetic and statistical analysis of bioequivalence (BE) studies**.
 
-The application was developed at the **National Anti-Doping Laboratory, Belarus** to support the analysis of pharmacokinetic (PK) data from crossover and replicate-design bioequivalence studies.
+The application was developed to support the analysis of pharmacokinetic (PK) data from crossover and replicate-design bioequivalence studies.
 
 ## Features
 
@@ -31,7 +31,7 @@ The application performs non-compartmental analysis (NCA) of concentration–tim
 * λz
 * half-life (t½)
 * AUClast
-* AUC0–∞
+* AUC0-∞
 
 The NCA calculations are implemented using the `NonCompart` package.
 
@@ -57,14 +57,11 @@ For replicate studies, the application implements analysis based on the EMA Meth
 
 The application provides:
 
-* individual concentration–time profiles
-* logarithmic concentration–time profiles
-* mean concentration–time profiles
+* individual concentration-time profiles
+* mean concentration-time profiles
 * overlay plots
-* visualization by formulation and study period
-* downloadable plots
 
-The application also allows users to export generated figures as high-resolution PNG files.
+All plots can be transformed in logarithmic concentration-time scale. The application also allows users to download generated figures as PNG files.
 
 ### Results and export
 
@@ -75,8 +72,8 @@ The application provides separate outputs for:
 * NCA results
 * individual PK concentration tables
 * descriptive statistics
-* bioequivalence analysis
-* graphical analysis
+* bioequivalence analysis (estimate, CI, ANOVA, CV, Power)
+
 
 ## Input Data
 
@@ -108,7 +105,7 @@ The application expects specific formats for these variables, including `R`/`T` 
 5. Process the data.
 6. Review NCA results.
 7. Review statistical bioequivalence results.
-8. Explore concentration–time profiles.
+8. Explore concentration-time profiles.
 9. Export tables and figures.
 
 The application provides these instructions directly in the user interface.
