@@ -139,9 +139,15 @@ r-shiny-bioequivalence-analysis/
 │       ├── data_example_cross.csv
 │       └── data_example_replicate.csv
 │
-├── www/
-│
 └── screenshots/
+│       ├── be-results.png
+│       └── concentration-data.png
+│       └── nca-results.png
+│       └── plots_1.png
+│       └── plots_2.png
+│       └── plots_3.png
+│       └── upload_1.png
+│       └── upload_2.png
 ```
 
 ## Reproducibility
